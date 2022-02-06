@@ -4,7 +4,8 @@
   
 ## Overview
 
-VeganCheck.me checks the barcode (EAN or UPC) of a food- or non-food-product and tells you if it is vegan or not. It is an useful tool for vegans and vegetarians - Developed with usability and simplicity in mind, so without distracting irrelevant facts or advertising.
+The VeganCheck.me Python Port checks the barcode (EAN or UPC) of a food- or non-food-product and tells you if it is vegan or not. 
+It does this by accessing four databases with around 860.000 products in them (and counting!).
 	
 This is the simplified Python version of the original [`script.php`](https://github.com/JokeNetwork/vegancheck.me/blob/main/script.php).
 
