@@ -41,7 +41,7 @@ else:
             product_name = product['product']['product_name']
         elif "generic_name" in product:
             product_name = product['product']['generic_name']
-        else: 
+        else:
             product_name = "Unknown"
 
         if "ingredients_analysis_tags" in product:
