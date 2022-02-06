@@ -1,6 +1,5 @@
 import requests
 import openfoodfacts
-import json
 import configparser
 
 # Product EAN
@@ -13,7 +12,7 @@ response = None
 
 if not barcode:
     response = "Barcode can not be empty!"
-else: 
+else:
     # Check if OFF has the product in their db
     # Test: 4251105515388
     if openfoodfacts.products.get_product(barcode)['status'] == 1:
@@ -22,9 +21,8 @@ else:
             product_name = product['product']['product_name']
         elif "generic_name" in product:
             product_name = product['product']['generic_name']
-        else: 
+        else:
             product_name = "Unknown"
-            
         if "ingredients_analysis_tags" in product['product']:
             array = product['product']['ingredients_analysis_tags']
             if "en:vegan" in array:
@@ -85,7 +83,7 @@ else:
             reqUrl = "https://opengtindb.org/?ean="+barcode+"&cmd=query&queryid="+queryid
             get = requests.request("GET", reqUrl)
             string = get.text
-            get = '[apicall]\n' + string 
+            get = '[apicall]\n' + string
             config_string = get.replace("---", "")
             config = configparser.ConfigParser()
             config.read_string(config_string)
