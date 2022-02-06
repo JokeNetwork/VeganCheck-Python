@@ -7,6 +7,15 @@
 VeganCheck.me checks the barcode (EAN or UPC) of a food- or non-food-product and tells you if it is vegan or not. It is an useful tool for vegans and vegetarians - Developed with usability and simplicity in mind, so without distracting irrelevant facts or advertising.
 	
 This is the simplified Python version of the original [`script.php`](https://github.com/JokeNetwork/vegancheck.me/blob/main/script.php).
+
+## Status
+[![Status: Active](https://jokenetwork.de/assets/img/gitstatus/active.svg)](https://jokenetwork.de/badges)
+[![Maintainability](https://api.codeclimate.com/v1/badges/25444ec42f64b922c6eb/maintainability)](https://codeclimate.com/github/JokeNetwork/VeganCheck-Python/maintainability)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=JokeNetwork_VeganCheck-Python&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=JokeNetwork_VeganCheck-Python)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=JokeNetwork_VeganCheck-Python&metric=bugs)](https://sonarcloud.io/summary/new_code?id=JokeNetwork_VeganCheck-Python)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=JokeNetwork_VeganCheck-Python&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=JokeNetwork_VeganCheck-Python)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b91453930d934c6d96ec0eccda5d2541)](https://www.codacy.com/gh/JokeNetwork/VeganCheck-Python/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JokeNetwork/VeganCheck-Python&amp;utm_campaign=Badge_Grade)
+[![CodeFactor](https://www.codefactor.io/repository/github/jokenetwork/vegan-ingredients-api/badge)](https://www.codefactor.io/repository/github/jokenetwork/vegan-ingredients-api)
 	
 ### Requirements: 
 - Python >=3.9.10
