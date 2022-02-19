@@ -66,10 +66,7 @@ else:
                 reqUrl = "https://api.vegancheck.me/v0/ingredients?ingredients="+ingredients
                 response = requests.request("GET", reqUrl)
                 vegan = response.json()['data']['vegan']
-                if vegan == "true":
-                    vegan = True
-                else:
-                    vegan = False
+                vegan = vegan == "true"
             else: 
                 vegan = "Unknown"
         # Check if Open EAN DB has the product in their db
@@ -94,10 +91,7 @@ else:
                     reqUrl = "https://api.vegancheck.me/v0/ingredients?ingredients="+ingredients
                     response = requests.request("GET", reqUrl)
                     vegan = response.json()['data']['vegan']
-                    if vegan == "true":
-                        vegan = True
-                    else:
-                        vegan = False
+                    vegan = vegan == "true"
                 else:
                     vegan = "Unknown"
             else:
