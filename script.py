@@ -104,11 +104,11 @@ else:
                 response = False
 
 
-if response == False:
+if response is False:
     print("Product not in db! :(")
-elif vegan == True:
+elif vegan is True:
     print(product_name + " is vegan!")
-elif vegan == False:
+elif vegan is False:
     print(product_name + " is not vegan :(")
 elif vegan == "Unknown":
     print("We dont know if " + product_name + " is vegan :/")
