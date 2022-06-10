@@ -28,7 +28,7 @@ This is the simplified Python version of the original [`script.php`](https://git
   $ pip install configparser
   ````
 - Optional: Get an API-Key for Open EAN Database by donating to Coast against plastic (Küsten gegen Plastik) - [Learn more here](https://opengtindb-org.translate.goog/userid.php?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp), insert it in the `.env.example` and rename it to `.env`. 
-Also change the path to the .env-file in `script.py:80`. Then you should be good to go!
+Also change the path to the .env-file in [`script.py:75`](https://github.com/JokeNetwork/VeganCheck-Python/blob/5be6ed683f5beecacf970d87b013a5b5aeab088a/script.py#L75) if needed. Then you should be good to go!
   ```py
   with open('.env', 'r') as f:
   ````
